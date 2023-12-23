@@ -1,0 +1,164 @@
+.List {
+  width: 100%;
+  border: 1px solid #DDD;
+  margin-top: 15px;
+}
+
+.row {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 25px;
+  background-color: #fff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.letter {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 40px;
+  color: white;
+  font-size: 1.5em;
+  margin-right: 25px;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.index {
+  color: #37474f;
+}
+
+.height {
+  flex: 1;
+  text-align: right;
+  color: #bdbdbd;
+  font-size: .75em;
+  font-weight: 100;
+}
+
+.noRows {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #bdbdbd;
+}
+
+.checkboxLabel {
+  margin-left: .5rem;
+}
+
+.checkboxLabel:first-of-type {
+  margin-left: 0;
+}
+
+.checkbox {
+  margin-right: 5px;
+}
+
+.isScrollingPlaceholder {
+  color: #DDD;
+  font-style: italic;
+}
+
+.ContentBox {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFF;
+  padding: 0 1rem 1rem 1rem;
+  overflow: auto;
+  background: white;
+}
+
+.ContentBox:first-of-type {
+  padding-top: 1rem;
+}
+
+.Header {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  font-weight: normal;
+  justify-content: space-between;
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.Small {
+  font-size: .65em;
+}
+
+.Link:hover {
+  text-decoration: none;
+}
+
+.Paragraph {
+  flex: 0 0 auto;
+  line-height: 1.2rem;
+  margin: 0 0 1rem;
+}
+
+.LabeledInput {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-width: 0;
+  margin: 0 10px 5px 0;
+}
+.LabeledInput:last-of-type {
+  margin-right: 0;
+}
+
+.Label {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+}
+.Input {
+  appearance: none;
+  border: 0;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 5px 0;
+  font-size: 1em;
+  font-weight: 300;
+  background-color: transparent;
+}
+.Input:focus {
+  outline: 0;
+}
+.Input::placeholder {
+  color: #e0e0e0;
+}
+.Input:disabled {
+  opacity: .5;
+}
+
+.Label {
+  color: #bdbdbd;
+  font-size: .75em;
+  margin-bottom: 5px;
+  font-weight: 100;
+}
+.LabelDisabled {
+  opacity: .5;
+}
+
+.InputRow {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}

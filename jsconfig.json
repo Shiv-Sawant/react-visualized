@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./src",
+      "paths": {
+        "faker": ["../node_modules/faker"]
+      }
+    },
+    "include": ["src"]
+  }
